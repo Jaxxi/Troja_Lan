@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: cyan;
+}
+
+.sponsors {
+  background-color: orange;
+}
+
+.general {
+  background-color: green;
+}
+
+.twitch {
+  background-color: purple;
+}
+
+.footer {
+  background-color: pink;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li a {
+    display: block;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+    background-color: grey;
+    text-decoration: none;
+}
