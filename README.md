@@ -24,3 +24,8 @@ Deadline tisdag 6/12 (v49)
 Bestäm vem som gör vad.
 
 Använd alltid github.
+
+Arbetet
+Daniel (Javascript)
+Linus (Design)
+Rickard (Skelett)
