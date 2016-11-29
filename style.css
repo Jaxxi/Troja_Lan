@@ -20,36 +20,53 @@
 }
 
 .navbar {
-    background-color: #0F0F17;
+  position: relative;
+    background-color: #4B0087;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-.facebook {
-  text-align: center;
-  display: block;
-  padding: 6px 10px;
-  float: right;
+.social {
+    text-align: center;
+    display: block;
+    padding: 7px 10px;
+    float: right;
+}
+
+.social:hover {
+    background-color: #43007A;
 }
 
 .sponsors {
-    background-color: #4B0087;
+    background-color: #380066;
 }
 
 .general {
     justify-content: center;
-    background-color: green;
     height: 100%;
     width: 100%;
     display: flex;
 }
 
 .twitch {
-    background-color: purple;
     text-align: center;
 }
 
 .footer {
     background-color: pink;
     text-align: center;
+}
+
+.active {
+    color: #FFBA08;
+    background-color: #43007A;
+    text-decoration: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: -4px;
+    border-style: solid;
+    border-color: #FFBA08;
 }
 
 img {
@@ -59,6 +76,7 @@ img {
 li {
     display: inline;
     float: left;
+    height: 40px;
 }
 
 ul {
@@ -66,22 +84,33 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #0F0F17;
+    background-color: #4B0087;
 }
 
 li a {
     display: block;
     color: white;
-    background-color: #0F0F17;
+    background-color: #4B0087;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    color: white;
-    background-color: #000000;
+    color: #FFBA08;
+    background-color: #43007A;
     text-decoration: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: -4px;
+    border-style: solid;
+    border-color: #FFBA08;
 }
 
 p {}
+
+body {
+    background-image: url("bg.png");
+    background-repeat: repeat;
+}
