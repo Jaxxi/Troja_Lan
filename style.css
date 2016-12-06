@@ -9,7 +9,12 @@
 .flex-left {
     flex: 2
 }
+.text1{
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
 
+}
 .flex-right {
     flex: 1;
 }
@@ -39,6 +44,7 @@
 
 .sponsors {
     background-color: #380066;
+    padding-top: 30px;
 }
 
 .general {
@@ -46,18 +52,22 @@
     height: 100%;
     width: 100%;
     display: flex;
+    padding: 30px;
 }
 
 .twitch {
     text-align: center;
+
 }
 
 .footer {
-    background-color: pink;
+  margin-top: 30px;
+  margin-bottom: 10px;
+    color: white;
     text-align: center;
 }
 
-.active {
+.test {
     color: #FFBA08;
     background-color: #43007A;
     text-decoration: none;
@@ -71,6 +81,9 @@
 
 img {
     float: left;
+}
+.transparent{
+ background: rgb(56, 0, 102, 0.8)
 }
 
 li {
