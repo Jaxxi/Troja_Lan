@@ -5,7 +5,9 @@
     font-weight: normal;
     font-style: normal;
 }
-
+.item{
+  margin-left: 50px;
+}
 .flex-left {
     flex: 2
 }
@@ -43,8 +45,9 @@
 }
 
 .sponsors {
-    background-color: #380066;
+    background-color: rgba(56, 0, 102, 0.6);
     padding-top: 30px;
+
 }
 
 .general {
